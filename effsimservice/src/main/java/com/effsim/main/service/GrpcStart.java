@@ -1,7 +1,6 @@
-package com.effsim.main;
+package com.effsim.main.service;
 
 import com.effsim.main.comment.Constant;
-import com.effsim.main.service.HelloWorldServerImpl;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +29,7 @@ public class GrpcStart {
 
     /**
      * @description: GRPC服务启动入口
-     * @return: com.effsim.main.GrpcStart
+     * @return: com.effsim.main.service.GrpcStart
      * @author: Shiqinghu
      * @time: 2020/8/30 15:10
      *
@@ -64,7 +63,7 @@ public class GrpcStart {
     }
     /**
      * @description: [GRPC服务停止]
-     * @return: com.effsim.main.GrpcStart
+     * @return: com.effsim.main.service.GrpcStart
      * @author: qinghuShi
      * @time: 2020/8/30 15:10
      *

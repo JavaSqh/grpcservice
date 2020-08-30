@@ -1,7 +1,6 @@
 package com.effsim.main.service;
 
 
-import com.effsim.main.GrpcStart;
 import io.grpc.examples.helloworld.HelloWorldGrpc;
 import io.grpc.examples.helloworld.HelloWorldProto;
 import io.grpc.stub.StreamObserver;

@@ -1,12 +1,17 @@
 package com.effsim.main;
 
+import com.effsim.main.service.GrpcStart;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 
+/**
+ *
+ *@description:  项目启动入口
+ *@author: Shiqinghu
+ *@time: 2020/8/30 18:40
+ */
 @SpringBootApplication
-//@EnableScheduling 定时任务
 public class EffsimserviceApplication {
 
 	public static void main(String[] args) {
@@ -18,6 +23,5 @@ public class EffsimserviceApplication {
 			e.printStackTrace();
 		}
 	}
-
 
 }
